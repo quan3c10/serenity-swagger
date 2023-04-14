@@ -14,7 +14,7 @@ public class AuthenticationStepDefinitions {
 
     @Given("{actor} is on the login page")
     public void colin_is_on_the_login_page(Actor actor) {
-        actor.attemptsTo(Open.url("https://www.saucedemo.com/"));
+        //actor.attemptsTo(Open.url("https://www.saucedemo.com/"));
     }
     @When("{actor} login with valid credentials")
     public void colin_login_with_valid_credentials(Actor actor) {

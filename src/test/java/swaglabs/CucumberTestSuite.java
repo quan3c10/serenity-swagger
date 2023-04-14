@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         //features = "src/test/resources/features"
-        features = "src/test/resources/features/cart"
+        features = "src/test/resources/features/authencation"
 )
 public class CucumberTestSuite {}
